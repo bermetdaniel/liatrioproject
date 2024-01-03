@@ -1,0 +1,49 @@
+Interview Exercise
+Overview
+The goal of this exercise is to get an idea of how well you will fit into our practice, if the way that we work is right for you, and to see how you present to an audience of mixed engineers.
+First, a successful exercise does NOT mean that you solve all of the issues or questions without help. We are interested to see how you identify and work through problems, how you communicate, how and when you ask for help, and finally, how you demonstrate and transfer knowledge.
+You are free to use any information needed to work this out. We all use Google, Slack, and our colleague sitting right next to us every day.
+If you are stuck, or if something is unclear, communicate this in the Slack channel. Remember: at Liatrio, communication, collaboration, transparency, and sharing are key pillars of our work culture.
+Problem Statement
+A potential client, XYZ, is a traditional on prem infrastructure shop that is interested in moving to the cloud. Developers have been complaining about kickstarting new environments, long lead times and cycles for development, and lack of consistency between their environments. Management has also been complaining about downtime during deployments and code quality being released into production.
+Liatrio has been tasked with showing XYZ how to potentially do this. They want to migrate to the cloud and they’ve recently been interested in containerization (and maybe k8s?).
+Build an application in the programming language of your choice that exposes a REST endpoint that returns the following JSON payload with the current timestamp and a static message:
+{
+  “message”: “Automate all the things!”,
+  “timestamp”: 1529729125
+}
+The application must be deployed on a Kubernetes cluster running in a public cloud provider of your choice. The provisioning of the cluster as well as the deployment of the application must be done through code. Costs incurred as part of this exercise may be reimbursed, please reach out to the Slack channel with questions about specific costs.
+Feel free to be creative! There are many different ways to be successful with the exercise and it
+ 
+ is designed to approximate our work – situations are ambiguous, clients ask for recommendations on tools you are not familiar with, and there are multiple different ways to approach the technical requirements.
+You can use this exercise to showcase your experience and wow us with your skills. Or you can use this exercise as an opportunity to get hands-on experience on a new tool or environment and wow us with your problem solving!
+Requirements
+● Commit all code to a public git repository.
+● Include a README.md containing detailed directions on how to run, what is running, and
+how to cleanup.
+● Provide a single command to launch the environment and deploy the application.
+● Some prerequisites are OK as long as they are properly documented.
+● We should be able to deploy and run the application in our own public cloud accounts. ● Include some form of automated tests to validate the environment.
+● Presentation (deck or medium of your choice)
+● Demo prep call with one of the Liatrio engineers
+Timeline
+There is no hard timeline on when you need to complete the exercise, although generally candidates complete it in a week and expected time commitment is 4-8 hours. We understand you may be working on the exercise in addition to a full-time job, family, etc. Please let us know in the Slack channel of your anticipated timeline and if anything changes. Factor in time to prepare for your presentation on Zoom. For the presentation, you are free to structure it how you see best, and there is no one single way to be successful. A slide show or other visual aid is highly recommended, but we’ll also want to see the code live.
+Presentation Prep & Demo
+Once you have completed all of the items above, please communicate with us in Slack.
+One of the interviewers will meet with you on a Slack Huddle or Zoom call prior to the presentation to review expectations for the presentation and help you prepare.
+There are a few things we’d recommend for a successful demo:
+●
+● ●
+Create a 3-6 slide presentation
+○ Some important areas to cover are: objectives, why you chose certain tech,
+and lessons learned
+○ Make it interesting, assume your audience is a mix of engineers and
+leadership that have different levels of technical background Prepare a live demo
+○ Application and infrastructure should to tested beforehand
+○ Be ready for questions during the demo
+Feel free (but not obligated) to put your own twist on the presentation. Don’t be afraid to make it fun or let your personality shine through
+
+ ● Do a dry-run and make sure you have you are able to share your screen prior to the demo
+We will schedule the presentation where you will present what you did in the exercise, what you learned, what you may have struggled with and any additional ideas or items that you may think of. At Liatrio, the audience is always a group of peers, but they can have varying skill and experience levels.
+The presentation will be given over Zoom with a screen share.
+The presentation will be 1 hour, before the engineers who conducted your interviews. This is your time, so come in ready to command the digital room and show off your finished exercise for 30 minutes. The remaining 30 minutes are for the interviewers to ask you follow-up questions and for you to ask us questions.
