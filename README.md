@@ -218,8 +218,10 @@ make delete-all
 ```
 nstalled and configured with the appropriate credentials.
 
-
-
+Challanges:
+1.Choosing the right base image of the python app.
+2. Choosing the right base image of the jenkins-master.
+3. Realizing the importance of --no-cache argument while building the docker images.
 
 ## Useful Links ##
 
